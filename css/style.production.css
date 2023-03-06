@@ -28,18 +28,11 @@
     /* Sets the line-height to 1.6 */
   }
   
-  h1 {
+  h1, h2 {
     font-size: 30px;
     font-weight: 700;
     max-width: 700px;
     margin: 0 auto;
-  }
-  
-  h2 {
-    max-width: 700px;
-    margin: 0 auto;
-    font-size: 30px;
-    font-weight: 700;
   }
   
   h3 {
@@ -223,6 +216,36 @@
     transition: 0.4s opacity, 0.5s background-color, 0.4 font-size;
   }
   
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  #h1, #h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .table {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1rem;
+    border-collapse: collapse;
+  }
+
+  th {
+    border: 3px solid black;
+    padding: 8px;
+  }
+
+  td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+
   .information {
     max-width: 700px;
     margin: 10px auto;
@@ -279,11 +302,6 @@
     border-radius: 3px;
   }
   
-  .table {
-    max-width: 700px;
-    margin: 20px 605px;
-  }
-
   #texto {
     text-align: center;
   }
